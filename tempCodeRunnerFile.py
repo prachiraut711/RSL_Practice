@@ -1,0 +1,1 @@
+print(prime_or_not(50))
