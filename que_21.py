@@ -47,6 +47,7 @@
 
 #so i cant use above dict method because it have O(n) time complexity but bcz of n no.are store in dict so the space complexity become O(n)  and we want O(1)
 
+# this is give O(1) space but modified array  if in question there is also condition that array should not modified then use slow ,fast use  Floyd’s cycle detection algorithm
 
 def printReapeating(arr):
     for i in range(len(arr)):
