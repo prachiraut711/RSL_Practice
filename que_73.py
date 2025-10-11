@@ -24,7 +24,7 @@ def isPalindrome(head):
         return prev
     
     def copiedList(head):
-        if not head:  #imp test case
+        if not head:  #this is IMP for test case =[1]
             return None
         
         new_head = Node(head.data)
