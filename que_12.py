@@ -44,6 +44,21 @@ def prime_in_range(n):
 
 print(prime_in_range(50))
 
+print("______")
+#prime numbers between 2 numbers
+def primeNumInTwoNum(start, end):
+    for num in range(start, end + 1):
+        if num > 1:
+            isPrime = True
+            for i in range(2, num // 2 + 1):
+                if num % i == 0:
+                    isPrime = False
+                    break
+            if isPrime:
+                print(num, end = " ")
+primeNumInTwoNum(10, 30)
+            
+
     
     
     
