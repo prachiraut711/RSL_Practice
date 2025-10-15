@@ -1,6 +1,4 @@
-# 3.Given array contain 1 and 0, put all 1 on left side and 0 on 
-# right side of the array
-
+# 3.Given array contain 1 and 0, put all 1 on left side and 0 on right side of the array
 
 def func(arr):
     for i in arr:
