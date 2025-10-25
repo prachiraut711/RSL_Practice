@@ -38,7 +38,7 @@ def nearest_prime_number(n):
 print(nearest_prime_number(10))
 print(nearest_prime_number(8))
 print(nearest_prime_number(17))
-
+print(nearest_prime_number(30))
 
 # to return both nearest primes if they are equally distant from n.
 def is_prime(num):
@@ -75,4 +75,4 @@ print(nearest_prime(8))   # [7]
 print(nearest_prime(9))   # [7, 11]
 print(nearest_prime(10))  # [11]
 print(nearest_prime(17))  # [17]
-
+print(nearest_prime(30))
